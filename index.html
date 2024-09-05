@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF=8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Awesome title #2</title> <!-- Tittelen som dukker opp i fanen -->
+
+    <!-- Tittelen som dukker opp i fanen -->
+
+    <title>Awesome title #2</title>
 </head>
 
+<!-- Alt innhold i selve siden -->
 <body>
     <header>
         <h1>Mine favoritt spill</h1>
@@ -15,22 +19,48 @@
     </header>
 
     <h2>Bloons TD 6</h2>
-    Dette er en klassisk tårnforsvars spill som startet ut med utgaver laget i form av spill i nettsider (Adobe Flash).<br> <!-- "br" tagget legger til en nytt linje i siden, dette kommer du til å se flere ganger uten å bruke CSS -->
-    <img src="bloons.png" width="950"><br> <!-- Bilde av selveste spillet, skala ned slik at det passer inn i nettsiden -->
-    <tr>
-        <img src="monkey.png" width="150"> <!-- Massevis av apekatter fra spillet, lagt inn i et tabell :D -->
-        <img src="monkey.png" width="150">
-        <img src="monkey.png" width="150">            <img src="monkey.png" width="150">
-        <img src="monkey.png" width="150">
-        <img src="monkey.png" width="150">            <img src="monkey.png" width="150">
-        <img src="monkey.png" width="150">
+
+    <!-- "br" tagget legger til en nytt linje i siden, dette kommer du til å se flere ganger uten å bruke CSS -->
+
+    Dette er en klassisk tårnforsvars spill som startet ut med utgaver laget i form av spill i nettsider (Adobe Flash).<br>
+
+    <!-- Bilde av selveste spillet, skala ned slik at det passer inn i nettsiden -->
+
+    <img src="bloons.png" width="950"><br>
+
+    <table>
+        <tr>
+
+            <!-- Massevis av apekatter fra spillet, lagt inn i et tabell :D -->
+
+            <th><img src="monkey.png" width="150">Apekatt 1</th>
+            <th><img src="monkey.png" width="150">Apekatt 2</th>
+            <th><img src="monkey.png" width="150">Apekatt 3</th>
+            <th><img src="monkey.png" width="150">Apekatt 4</th>
+        </tr>
+        <tr>
+            <th><img src="monkey.png" width="150">Apekatt 5</th>
+            <th><img src="monkey.png" width="150">Apekatt 6</th>
+            <th><img src="monkey.png" width="150">Apekatt 7</th>
+            <th><img src="monkey.png" width="150">Apekatt 8</th>
+        </tr>
+    </table>
+    
     <h2>Roblox</h2>
-    <mark>Det er ikke en egen "spill" med eget innhold</mark><!-- "mark" marker en viktig punkt i teksten, akkurat som en highlighter på papir -->, det er mer av en hub for andre spill som du kan spille i, nesten som andre butikkfronter (Steam, Epic Games Store, osv.)<br>
-    <img src="roblox.png" width="950"><br> <!-- Bilde av selveste spillet, samme prosess brukt for Bloons TD 6 bildet -->
+
+    <!-- "mark" marker en viktig punkt i teksten, akkurat som en highlighter på papir -->
+
+    <mark>Det er ikke en egen "spill" med eget innhold</mark>, det er mer av en hub for andre spill som du kan spille i, nesten som andre butikkfronter (Steam, Epic Games Store, osv.)<br>
+
+    <!-- Bilde av selveste spillet, samme prosess brukt for Bloons TD 6 bildet -->
+
+    <img src="roblox.png" width="950"><br>
 
     <h2>Send meg en melding her:</h2>
 
-    <form> <!-- Kontaktskjemaet min, med et felt for å skrive en melding-->
+    <!-- Kontaktskjemaet min, med et felt for å skrive en melding-->
+
+    <form>
         Førstenavn:<br>
         <input type="text"><br>
         Etternavn:<br>
@@ -41,14 +71,23 @@
         <input type="checkbox"><br>
         BankID passord:<br>
         <input type="text"><br>
-        Kortnummer:<br> <!-- hehehe -->
+        <!-- hehehe -->
+        Kortnummer:<br>
+
         <input type="text"><br>
-        De tre sifrene bak kortet (CVV / CVC):<br> <!-- For lovlige grunner må jeg si at alt dette sender ikke faktisk informasjon inn, dette er bare for tull. Ingen  -->
+
+        <!-- For lovlige grunner må jeg si at alt dette sender ikke faktisk informasjon inn, dette er bare for tull. -->
+
+        De tre sifrene bak kortet (CVV / CVC):<br>
         <input type="text"><br>
         E-post adresse:<br>
         <input type="text"><br>
         Hva har du å si?<br>
-        <input type="text" size="150"><br> <!-- Denne input tagget er blitt lengere, for å passe inn selve meldingen -->
+
+        <!-- Denne input tagget er blitt lengere, for å passe inn selve meldingen -->
+
+        <input type="text" size="150"><br>
+        
         <input type="submit">
     </form>
 </body>

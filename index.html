@@ -1,32 +1,56 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="no"> <!-- Setter språk for nettsiden -->
 
 <head>
     <meta charset="UTF=8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Awesome title</title>
+    <title>Awesome title #2</title> <!-- Tittelen som dukker opp i fanen -->
 </head>
 
 <body>
     <header>
         <h1>Mine favoritt spill</h1>
-        Det er mye spill som jeg har. Denne nettsiden viser fram 3 av mine favoritter.      <img src="Cirnofumo.png" width="15">
+        Det er mye spill som jeg har skaffet i tiden. Denne nettsiden viser fram 2 av mine favoritter.      <img src="Cirnofumo.png" width="15"> <!-- En 914x1200 bilde, satt i en liten oppløsning slik som en emoji -->
         <hr>
-        <h2>Bloons TD 6</h2>
-        Dette er en klassisk tårnforsvars spill som startet ut med utgaver laget i form av spill i nettsider (Adobe Flash).<br>
-        <img src="bloons.png" width="950"><br>
-        <tr>
-            <img src="monkey.png" width="150">
-            <img src="monkey.png" width="150">
-            <img src="monkey.png" width="150">
-        </tr>
-        <h2>Roblox</h2>
-        Dette er ikke et egen "spill" med eget innhold, det er mer av en slags hub for andre spill som du kan spille i, nesten som andre butikkfronter (Steam, Epic Games Store, osv.)<br>
-        <img src="roblox.png" width="950"><br>
-        <h2></h2>
     </header>
 
+    <h2>Bloons TD 6</h2>
+    Dette er en klassisk tårnforsvars spill som startet ut med utgaver laget i form av spill i nettsider (Adobe Flash).<br> <!-- "br" tagget legger til en nytt linje i siden, dette kommer du til å se flere ganger uten å bruke CSS -->
+    <img src="bloons.png" width="950"><br> <!-- Bilde av selveste spillet, skala ned slik at det passer inn i nettsiden -->
+    <tr>
+        <img src="monkey.png" width="150"> <!-- Massevis av apekatter fra spillet, lagt inn i et tabell :D -->
+        <img src="monkey.png" width="150">
+        <img src="monkey.png" width="150">            <img src="monkey.png" width="150">
+        <img src="monkey.png" width="150">
+        <img src="monkey.png" width="150">            <img src="monkey.png" width="150">
+        <img src="monkey.png" width="150">
+    <h2>Roblox</h2>
+    <mark>Det er ikke en egen "spill" med eget innhold</mark><!-- "mark" marker en viktig punkt i teksten, akkurat som en highlighter på papir -->, det er mer av en hub for andre spill som du kan spille i, nesten som andre butikkfronter (Steam, Epic Games Store, osv.)<br>
+    <img src="roblox.png" width="950"><br> <!-- Bilde av selveste spillet, samme prosess brukt for Bloons TD 6 bildet -->
 
+    <h2>Send meg en melding her:</h2>
+
+    <form> <!-- Kontaktskjemaet min, med et felt for å skrive en melding-->
+        Førstenavn:<br>
+        <input type="text"><br>
+        Etternavn:<br>
+        <input type="text"><br>
+        Fødselsnummer:<br>
+        <input type="text"><br>
+        Er du i et forhold?
+        <input type="checkbox"><br>
+        BankID passord:<br>
+        <input type="text"><br>
+        Kortnummer:<br> <!-- hehehe -->
+        <input type="text"><br>
+        De tre sifrene bak kortet (CVV / CVC):<br> <!-- For lovlige grunner må jeg si at alt dette sender ikke faktisk informasjon inn, dette er bare for tull. Ingen  -->
+        <input type="text"><br>
+        E-post adresse:<br>
+        <input type="text"><br>
+        Hva har du å si?<br>
+        <input type="text" size="150"><br> <!-- Denne input tagget er blitt lengere, for å passe inn selve meldingen -->
+        <input type="submit">
+    </form>
 </body>
 
 </html>
